@@ -1,63 +1,24 @@
-<<<<<<< HEAD
-# telemetry-frontend
-=======
-# TelemetryFrontend
+# 🖥️ Microfleet Telemetry Dashboard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.0.
+## 🚀 Project Overview
+This is the official frontend for the Microfleet ecosystem. It is a real-time, high-performance dashboard built with **Angular 19** to visualize lift truck telemetry data. The dashboard provides fleet managers with instant visibility into vehicle health, speed violations, and battery status.
 
-## Development server
+## 🎯 Product Vision
+To provide a reactive, zoneless user interface that transforms raw backend telemetry into actionable safety alerts through intuitive color-coded status indicators.
 
-To start a local development server, run:
+## 🛠️ Global Tech Stack
+* **Framework**: Angular 19 (Standalone Components)
+* **State Management**: Angular Signals (Zoneless Change Detection)
+* **Styling**: Modern CSS3 with dynamic status mapping
+* **Environment**: Node.js & npm
 
-```bash
-ng serve
-```
+## 🗺️ Project Roadmap (Frontend)
+* **✅ Sprint 4: Live Data Visualization** (Completed!)
+    * Built reactive table with Signal-based data fetching.
+    * Implemented dynamic "Violation" vs "Normal" color logic.
+* **⏳ Sprint 5: Security & OAuth2 Integration** (Planned)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
->>>>>>> 8c39c13 (initial commit)
+## 📂 Project Ecosystem
+This frontend works in tandem with the backend services:
+* ⚙️ **Backend**: [Telemetry Service](https://github.com/WoW112119/telemetry-service)
+* 🗄️ **Database**: PostgreSQL (Dockerized)
