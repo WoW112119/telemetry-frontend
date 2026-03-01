@@ -16,7 +16,6 @@ To provide a reactive, zoneless user interface that transforms raw backend telem
 * **✅ Sprint 4: Live Data Visualization** (Completed!)
     * Built reactive table with Signal-based data fetching.
     * Implemented dynamic "Violation" vs "Normal" color logic.
-* **⏳ Sprint 5: Security & OAuth2 Integration** (Planned)
 
 ## 📂 Project Ecosystem
 This frontend works in tandem with the backend services:
